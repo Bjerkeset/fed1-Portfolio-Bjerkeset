@@ -60,18 +60,17 @@ function Portfolio() {
         id="portfolio"
         className="flex gap-y-16 py-16 flex-col max-w-screen-xl "
       >
-        <div className="f bg-slate-600 mb-auto pt-16">
-          <div className=" bg-black flex ">
-            <div className="w-1/2">
-              <h2 className="text-3xl  ">My Experience</h2>
+        <div className=" mb-auto pt-16">
+          <div className=" flex flex-col items-center gap-4 md:flex-row py-8 bg-opacity-50">
+            <div className="w-1/2 flex justify-center">
+              <h2 className="text-4xl font-bold underline">My Experience</h2>
             </div>
-            <div className="w-1/2">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                natus, eligendi rerum atque quasi distinctio placeat deleniti
-                iusto unde in expedita consectetur pariatur est, temporibus
-                vitae rem tempore fugit voluptate perferendis libero. Nam
-                exercitationem dicta quod eum nostrum ullam ad.
+            <div className="w-1/2 flex justify-center">
+              <p className=" text-gray-300 xl:text-xl font-semibold">
+                Take a moment to browse through my diverse array of projects.
+                Each one stands as a testament to my proficiency in various
+                technical domains, my problem-solving capabilities, and my
+                dedication to providing effective and efficient solutions.
               </p>
             </div>
           </div>

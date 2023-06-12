@@ -11,9 +11,23 @@ function Navbar() {
   return (
     <header className="bg-background-main">
       <nav className="flex mx-4 py-4">
-        {/* ... */}
-        <div className="ml-auto ">
-          {/* ... */}
+        <div className="ml-auto">
+          <button onClick={toggleMenu} className="sm:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              className="h-6 w-6 text-gray-500 hover:text-black"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </button>
           <ul
             className={`hidden sm:flex gap-4 flex-row ${
               isOpen ? "flex flex-col mt-2" : ""
@@ -48,16 +62,16 @@ function Navbar() {
       </nav>
       {isOpen && (
         <div className="px-4 pb-4 sm:hidden">
-          <a href="" className="block py-2">
+          <a href="#homepage" className=" text-white block py-2">
             HOMEPAGE
           </a>
-          <a href="" className="block py-2">
+          <a href="#portfolio" className="text-white block py-2">
             PORTFOLIO
           </a>
-          <a href="" className="block py-2">
+          <a href="#about" className="text-white block py-2">
             ABOUT
           </a>
-          <a href="" className="block py-2">
+          <a href="#contact" className="text-white block py-2">
             CONTACT
           </a>
         </div>

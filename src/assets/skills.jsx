@@ -5,31 +5,31 @@ const cards = [
   {
     title: "Ux/Ul Design",
     img: "../assets/images/icon-figma.png",
-    text: "doloremque distinctio porro. Alias veniam cupiditate aliquam tempore, libero culpa laudantium.",
+    text: "As a UX/UI designer, I combine creativity with a deep understanding of user needs, creating intuitive and appealing interfaces that enhance user interaction and satisfaction",
     id: 1,
   },
   {
     title: "Javascript and React",
     img: "../assets/images/icon-js.png",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ut accusamus assumenda. Incidunt placeat",
+    text: "Expert in JavaScript and React, I build efficient, user-friendly, and robust web applications, adhering to best coding practices.",
     id: 2,
   },
   {
     title: "Ai Tooling",
     img: "../assets/images/ai.png",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ut accusamus assumenda. Incidunt placeat",
+    text: "I use AI tools to leverage my working capacity and solve problems, always staying abreast of technological advancements to produce meaningful solutions.",
     id: 3,
   },
   {
     title: "CSS and Tailwind",
     img: "../assets/images/tailwind.png",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ut accusamus assumenda. Incidunt placeat",
+    text: "I create responsive, aesthetically pleasing web designs, focusing on superior UX/UI.",
     id: 4,
   },
   {
     title: "Blockchain",
     img: "../assets/images/blockchain.png",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ut accusamus assumenda. Incidunt placeat",
+    text: "With a strong grasp of blockchain technology, I am exploring innovative ways to leverage this decentralized system for improved security and transparency",
     id: 5,
   },
 ];
@@ -40,23 +40,30 @@ function Skills() {
       <div className="bg-gradient-divider h-0.5"></div>
       <section
         id="about"
-        className="flex flex-col md:flex-row justify-center xl:p-[10vw] pt-16  place-items-center bg-gradient-introSection "
+        className="flex flex-col gap-8 md:flex-row justify-center xl:p-[10vw] pt-16  place-items-center bg-gradient-introSection "
       >
-        <div className=" ml-8 sticky-class  mb-auto ">
+        <div className="md:sticky top-0 ml-8 flex justify-center mb-auto ">
           <div className="flex flex-col gap-8 w-2/3">
             <div>
-              <h2 className="text-3xl ">ABOUT ME</h2>
+              <h2 className="text-3xl underline text-gray-200 font-extrabold">
+                ABOUT ME
+              </h2>
             </div>
             <div>
-              <p className="text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                natus, eligendi rerum atque quasi distinctio placeat deleniti
-                iusto unde in expedita consectetur pariatur est, temporibus
-                vitae rem tempore fugit voluptate perferendis libero. Nam
-                exercitationem dicta quod eum nostrum ullam ad.
+              <p className="text-gray-300 xl:text-xl font-semibold">
+                In a world that constantly evolves, so do I. With a passion for
+                technology and an ever-expanding toolkit, I am dedicated to
+                building innovative solutions that push boundaries. Below is an
+                overview of my proficiency in various areas, from front-end
+                development with JavaScript and React, mastering AI tooling,
+                creating engaging designs with CSS and Tailwind, to exploring
+                the future of transactions with Blockchain. Each skill reflects
+                my dedication to learning and growing, forming a foundation on
+                which I build my work. Join me in exploring the depth of my
+                expertise.
               </p>
             </div>
-            <fieldset className="space-y-1 sm:w-60 text-gray-100">
+            <fieldset className="space-y-1 sm:w-60 text-gray-300">
               <div className="">
                 <div className="border-b mb-4 text-center">
                   <h2 className="text-2xl ">Techical sills</h2>
@@ -128,7 +135,7 @@ function Card(props) {
 
   return (
     <>
-      <div className="w-1/2 max-w-xl min-w-[35vw] mr-8 flex bg-background-main bg-opacity-20 flex-col p-8">
+      <div className="md:w-1/2 max-w-xl min-w-[35vw] mr-8 flex bg-background-main bg-opacity-20 flex-col p-8">
         <div className="flex">
           <img className="w-24 mr-auto" src={img} alt={title} />{" "}
           <div className="ml-auto text-outline"> {id} </div>

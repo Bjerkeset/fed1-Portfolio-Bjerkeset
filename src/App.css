@@ -123,15 +123,6 @@ html {
   border: 2px solid grey;
 }
 
-.btn-view-portfolio {
-  position: relative;
-}
-
-.btn-view-portfolio:hover .fa-arrow-right {
-  padding-left: 8px; /* Adjust the padding value as needed */
-  /* position: absolute; */
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;

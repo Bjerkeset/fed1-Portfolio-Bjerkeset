@@ -8,6 +8,7 @@ import "./index.css";
 import Skills from "./assets/skills.jsx";
 import Portfolio from "./assets/portfolio.jsx";
 import Footer from "./assets/footer.jsx";
+import Contact from "./assets/contact.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <IntroSection />
     <Skills />
     <Portfolio />
+    <Contact />
     <Footer />
   </React.StrictMode>
 );

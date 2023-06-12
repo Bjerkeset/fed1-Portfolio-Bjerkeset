@@ -1,18 +1,14 @@
-# Your project title
-
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+# PORTFOLIO WEBSITE ASSIGNMENT
 
 Portfolio website course delivery.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+This assignment represents the culminating project for the first year at Noroff Front-end studies. The primary goal of the website we're creating is to serve as a comprehensive portfolio, illustrating the breadth and quality of my work thus far in my career.
 
-This is the last course assignment for year one at Noroff Front-end studies. The website is a Porfolio website with the main purpuse of showcasing my best work so far in my career.
+Due to the strict time constraints for this course, the current version of the website will subsequently undergo further refinement. This polished version, complete with an enhanced design and additional features, will be accessible in the future at https://bjerkeset.dev.
 
-Due to time constraints the there will be an updated version with more polished design and more features wich can be found at https//bjerkeset.dev in the future.
-
-The website has three main Sections.
+The website is intuitively structured into three primary sections:
 
 - Hero section
 - About Section
@@ -23,6 +19,10 @@ The website has three main Sections.
 - [React.js](https://reactjs.org/)
 - [Tailwind](https://tailwindcss.com/)
 
+## Live Site
+
+- [URL](https://fed1-portfolio-bjerkeset.vercel.app/)
+
 ## Getting Started
 
 ### Installing
@@ -30,7 +30,7 @@ The website has three main Sections.
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone git@github.com:Bjerkeset/fed1-Portfolio-Bjerkeset
 ```
 
 2. Install the dependencies:
@@ -44,21 +44,9 @@ npm install
 To run the app, run the following commands:
 
 ```bash
-npm run start
+npm run dev
 ```
-
-## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
-[My Twitter page](www.twitter.com)
-
 [My Email](bendik@bjerkeset.dev)
-
-[My LinkedIn page](www.linkedin.com)
-
-## Acknowledgments
