@@ -33,13 +33,13 @@ function Footer() {
           </ul>
           <div className="flex gap-4">
             <a
-              href="https://github.com/yourGithubUsername"
+              href="https://github.com/Bjerkeset/fed1-Portfolio-Bjerkeset"
               className="text-4xl text-gray-500 hover:text-gray-300"
             >
               <FontAwesomeIcon icon={faGithub} />
             </a>
             <a
-              href="https://linkedin.com/in/yourLinkedinUsername"
+              href="https://linkedin.com/"
               className="text-4xl text-gray-500 hover:text-gray-300"
             >
               <FontAwesomeIcon icon={faLinkedin} />
